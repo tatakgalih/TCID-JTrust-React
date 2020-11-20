@@ -1,38 +1,207 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+*,
+*::after,
+*::before {
+  box-sizing: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container-fluid {
+  width: 100%;
+  padding: 0 15px;
+}
+button.btn,
+a.btn {
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  font-size: 26px;
+  padding: 14px 43px;
+  text-decoration: none;
+  cursor: pointer;
+}
+button.btn-cta,
+a.btn-cta {
+  background-color: #0080c0;
+  color: #fff;
+  border-radius: 40px;
+}
+button.btn-cta img,
+a.btn-cta img {
+  margin-right: 5px;
+}
+button header {
+  background-color: #fff;
+}
+header .header-area {
+  display: flex;
+}
+header .header-area {
+  justify-content: center;
+  padding: 1em 0;
+}
+header .header-area img {
+  max-width: 241px;
+  width: 100%;
+  height: auto;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+section.hero {
+  background-image: url(./images/bg-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+}
+section.hero .hero-area,
+section.hero .ojk-lps-area {
+  display: flex;
+  padding: 1em 0;
+}
+section.hero .ojk-lps-area {
+  justify-content: flex-end;
+}
+section.hero .hero-area img {
+  margin-top: 5em;
+  max-width: 665px;
+  width: 100%;
+}
+section.hero .ojk-lps-area img {
+  max-width: 404px;
+  width: 100%;
+}
+section.info {
+  background-image: radial-gradient(#003744, #00171d);
+}
+section.info .info-area {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section.info .info-area p {
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section.profits {
+  padding: 5em 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section.profits h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1.5em;
+}
+section.profits h2 span.blue-text {
+  color: #0180c0;
+}
+section.profits .profits-area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 3em;
+}
+section.profits .profits-area div {
+  text-align: center;
+}
+section.profits .profits-area div h4 {
+  font-size: 1.5em;
+  color: #0180c0;
+}
+section.profits .profits-area img {
+  max-width: 332px;
+  width: 100%;
+  height: auto;
+}
+section.more {
+  background-color: rgb(255, 157, 46);
+}
+section.more .cta-area {
+  text-align: center;
+}
+section.more .cta-area h3 {
+  color: #fff;
+  font-size: 1.75em;
+  margin-bottom: 3em;
+}
+section.contact {
+  background-image: linear-gradient(#29b7fe, #0080c0);
+}
+section.contact .contact-area {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 3em;
+  color: #fff;
+}
+section.contact .contact-area .social-media ul {
   display: flex;
-  flex-direction: column;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+section.contact .contact-area .social-media ul img {
+  max-width: 30px;
+  width: 100%;
+  height: auto;
+}
+section.contact .contact-area .media-partner ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
   align-items: center;
+}
+section.contact .contact-area .media-partner ul:first-child {
+  justify-content: flex-end;
+}
+section.contact .contact-area .media-partner ul li {
+  margin-bottom: 1.5em;
+}
+section.contact .contact-area .media-partner ul:last-child li {
+  display: flex;
+  align-items: center;
+  margin-right: 1em;
+  font-size: 8px;
+}
+section.contact .contact-area .media-partner ul:last-child li::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 30px;
+  margin: 10px 10px 0;
+  background: #fff;
+}
+section.contact .contact-area .media-partner ul:last-child li:last-child::after {
+  display: none;
+}
+footer {
+  background-color: #000;
+  padding: 15px 0;
+}
+footer .footer-area {
+  display: flex;
+  color: #fff;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 700px) {
+  section.profits .profits-area {
+    grid-template-columns: 1fr;
   }
-  to {
-    transform: rotate(360deg);
+  section.contact .contact-area {
+    grid-template-columns: 1fr;
+  }
+  section.contact .contact-area .social-media .logo {
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  section.contact .contact-area .social-media ul {
+    justify-content: center;
+  }
+  section.contact .contact-area .social-media ul li {
+    margin: 0 1em;
   }
 }
