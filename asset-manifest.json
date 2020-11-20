@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "./static/css/main.d4b49355.chunk.css",
-    "main.js": "./static/js/main.64411f2c.chunk.js",
-    "main.js.map": "./static/js/main.64411f2c.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.f604f319.js",
-    "runtime-main.js.map": "./static/js/runtime-main.f604f319.js.map",
-    "static/js/2.ca200d3b.chunk.js": "./static/js/2.ca200d3b.chunk.js",
-    "static/js/2.ca200d3b.chunk.js.map": "./static/js/2.ca200d3b.chunk.js.map",
-    "static/js/3.24175f3f.chunk.js": "./static/js/3.24175f3f.chunk.js",
-    "static/js/3.24175f3f.chunk.js.map": "./static/js/3.24175f3f.chunk.js.map",
-    "index.html": "./index.html",
-    "static/css/main.d4b49355.chunk.css.map": "./static/css/main.d4b49355.chunk.css.map",
-    "static/js/2.ca200d3b.chunk.js.LICENSE.txt": "./static/js/2.ca200d3b.chunk.js.LICENSE.txt",
-    "static/media/App.css": "./static/media/bg-hero.22282359.jpg",
-    "static/media/deposito-image.440b4a36.png": "./static/media/deposito-image.440b4a36.png",
-    "static/media/hero-image-1.cc529016.png": "./static/media/hero-image-1.cc529016.png",
-    "static/media/produk-lain-image.7544477a.png": "./static/media/produk-lain-image.7544477a.png",
-    "static/media/tabungan-image.fc7ad61a.png": "./static/media/tabungan-image.fc7ad61a.png"
+    "main.css": "/TCID-JTrust-React/static/css/main.77c2d81c.chunk.css",
+    "main.js": "/TCID-JTrust-React/static/js/main.64411f2c.chunk.js",
+    "main.js.map": "/TCID-JTrust-React/static/js/main.64411f2c.chunk.js.map",
+    "runtime-main.js": "/TCID-JTrust-React/static/js/runtime-main.b0df299c.js",
+    "runtime-main.js.map": "/TCID-JTrust-React/static/js/runtime-main.b0df299c.js.map",
+    "static/js/2.ca200d3b.chunk.js": "/TCID-JTrust-React/static/js/2.ca200d3b.chunk.js",
+    "static/js/2.ca200d3b.chunk.js.map": "/TCID-JTrust-React/static/js/2.ca200d3b.chunk.js.map",
+    "static/js/3.24175f3f.chunk.js": "/TCID-JTrust-React/static/js/3.24175f3f.chunk.js",
+    "static/js/3.24175f3f.chunk.js.map": "/TCID-JTrust-React/static/js/3.24175f3f.chunk.js.map",
+    "index.html": "/TCID-JTrust-React/index.html",
+    "static/css/main.77c2d81c.chunk.css.map": "/TCID-JTrust-React/static/css/main.77c2d81c.chunk.css.map",
+    "static/js/2.ca200d3b.chunk.js.LICENSE.txt": "/TCID-JTrust-React/static/js/2.ca200d3b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/TCID-JTrust-React/static/media/bg-hero.22282359.jpg",
+    "static/media/deposito-image.440b4a36.png": "/TCID-JTrust-React/static/media/deposito-image.440b4a36.png",
+    "static/media/hero-image-1.cc529016.png": "/TCID-JTrust-React/static/media/hero-image-1.cc529016.png",
+    "static/media/produk-lain-image.7544477a.png": "/TCID-JTrust-React/static/media/produk-lain-image.7544477a.png",
+    "static/media/tabungan-image.fc7ad61a.png": "/TCID-JTrust-React/static/media/tabungan-image.fc7ad61a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f604f319.js",
+    "static/js/runtime-main.b0df299c.js",
     "static/js/2.ca200d3b.chunk.js",
-    "static/css/main.d4b49355.chunk.css",
+    "static/css/main.77c2d81c.chunk.css",
     "static/js/main.64411f2c.chunk.js"
   ]
 }
